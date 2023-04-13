@@ -1,7 +1,7 @@
 ![Bionano logo](images/Bionano-Logo.png?raw=true)
 
 # Homologous Recombination Deficiency Script #
-This script implements an automated algorithm to calculate a homologous recombination deficiency (HRD) score. The HRD score which is the summation of the three HRD signatures:
+This script implements an automated algorithm to calculate a homologous recombination deficiency (HRD) score. The HRD score is the summation of the three HRD signatures:
 
 1. Loss of heterozygosity (HRD-LOH): the number of regions with a loss  >15 Mbp but shorter than the whole chromosome
 2. Telomeric allelic imbalance (TAI): the number of regions of gain and loss >10Mbp that extend to a subtelomere but do not cross the centromere
@@ -24,3 +24,5 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 -chromLengthFile: chrom_length_only.txt 
 -cnvMaskFile: hg38_cnv_masks.bed (or other appropriate build)
 ```
+
+You can find the files for centromere, chromosome length, and cnv mask for hg38 and hg19 in this repo.
