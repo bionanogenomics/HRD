@@ -20,7 +20,7 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 -aneuploidyFile:	Aneuploidy.txt 
 -outFile: 			output_file_prefix.txt 
 -centromereFile: 	hg38_centromeres.txt (or other appropriate build)
--chromLengthFile: 	chrom_length_only.txt 
+-chromLengthFile: 	hg38_chrom_length.txt (or other appropriate build)
 -cnvMaskFile: 		hg38_cnv_masks.bed (or other appropriate build)
 ```
 
