@@ -1,29 +1,18 @@
-# README #
+![Bionano logo](images/Bionano-Logo.png?raw=true)
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# Homologous Recombination Deficiency Script #
 
-### What is this repository for? ###
+This script implements an automated algorithm to calculate a homologous recombination deficiency (HRD) score. The HRD score which is the summation of the three HRD signatures:
+* Loss of heterozygosity (HRD-LOH): the number of regions with a loss  >15 Mbp but shorter than the whole chromosome
+* Telomeric allelic imbalance (TAI): the number of regions of gain and loss >10Mbp that extend to a subtelomere but do not cross the centromere
+* Large-scale state transition LST: the number of chromosomal breakpoints whose SV size >10Mb but not the whole chromosome
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+### Setup ###
+---
+Current Implementation
+```
+perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneuploidyFile --outFile --centromereFile --chromLengthFile --cnvMaskFile
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
