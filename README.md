@@ -6,7 +6,7 @@ This script is designed to calculate a homologous recombination deficiency (HRD)
 3. Large-scale state transition LST: the number of chromosomal breakpoints whose SV size >10Mb but not the whole chromosome
 
 
-### Running Script ###
+### Running Perl Script ###
 ---
 Current implementation
 ```
