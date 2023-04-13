@@ -33,11 +33,10 @@ cnvFile: output/data/alignmolvref/copynumber/cnv_calls_exp.txt
 aneuploidyFile: output/data/alignmolvref/copynumber/cnv_chrAneuploidy_exp.txt
 ```
 
-If downloading the files from an RVA run on Access, you will want to SHOW ALL variants in Access before downloading the smap, cnv and aneuploidy files, .
+If downloading the files from an RVA run on Access, you will want to SHOW ALL variants in Access before downloading the smap, cnv and aneuploidy files.
 
 
-** Run Log **
-You make sure to have a run log to check for errors in your run.
+You should also make sure to have a run log to check for errors.
 ```
 &> run_log.txt
 ```
