@@ -1,5 +1,5 @@
 # Homologous Recombination Deficiency Script #
-This script implements an automated algorithm to calculate a homologous recombination deficiency (HRD) score. The HRD score is the summation of the three HRD signatures:
+This script is designed to calculate a homologous recombination deficiency (HRD) score. The HRD score is the summation of the three HRD signatures:
 
 1. Loss of heterozygosity (HRD-LOH): the number of regions with a loss  >15 Mbp but shorter than the whole chromosome
 2. Telomeric allelic imbalance (TAI): the number of regions of gain and loss >10Mbp that extend to a subtelomere but do not cross the centromere
