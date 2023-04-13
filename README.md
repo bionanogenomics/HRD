@@ -25,7 +25,15 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 ```
 
 You can find the files for centromere, chromosome length, and cnv mask for hg38 and hg19 in this repo (*hg38_input_files* and *hg19_input_files* folders). The other files will need to be obtained from a **Rare Variant Analysis**.
-For the smap, cnv and aneuploidy files, you will want to SHOW ALL variants in Access before downloading those three files.
+
+If running the RVA on the command line, the files can be found in the output here:
+```
+smapFile: output/data/annotation/variants_combine_filters_inMoleRefine1.smap
+cnvFile: output/data/alignmolvref/copynumber/cnv_calls_exp.txt
+aneuploidyFile: output/data/alignmolvref/copynumber/cnv_chrAneuploidy_exp.txt
+```
+
+If downloading the files from an RVA run on Access, you will want to SHOW ALL variants in Access before downloading the smap, cnv and aneuploidy files, .
 
 
 ** Execution Command Example **
