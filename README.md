@@ -15,12 +15,12 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 
 ** Required Files **
 ```
--cnvFile: CNV.txt 
--aneuploidyFile: Aneuploidy.txt 
--outFile: output_file_prefix.txt 
--centromereFile: hg38_centromeres.txt (or other appropriate build)
--chromLengthFile: chrom_length_only.txt 
--cnvMaskFile: hg38_cnv_masks.bed (or other appropriate build)
+-cnvFile:			CNV.txt 
+-aneuploidyFile:	Aneuploidy.txt 
+-outFile: 			output_file_prefix.txt 
+-centromereFile: 	hg38_centromeres.txt (or other appropriate build)
+-chromLengthFile: 	chrom_length_only.txt 
+-cnvMaskFile: 		hg38_cnv_masks.bed (or other appropriate build)
 ```
 
 You can find the files for centromere, chromosome length, and cnv mask for hg38 and hg19 in this repo (*hg38_input_files* and *hg19_input_files* folders).
