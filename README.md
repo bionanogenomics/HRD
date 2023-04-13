@@ -35,7 +35,7 @@ perl HRD_project/calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl -smapFile HRD_p
 
 ### Output Example ###
 ---
-Below is what an output file will look like. The first three columns are the measurments of HRD outlined above, and the final column is the calculated HRD score.
+Below is what an output file will look like. The first column is the chromosome, the next three columns are the measurments of HRD outlined above, and the final column is the calculated HRD score for each chromosome.
 ```
 chrom	LST	LOH	TAI	numIntrachromFusion_chromothripsis
 1	5	1	0	4
@@ -63,3 +63,7 @@ chrom	LST	LOH	TAI	numIntrachromFusion_chromothripsis
 23	4	0	1	0
 24	0	0	0	0
 ```
+
+### Follow Ups & Questions ###
+---
+The HRD script was written by Andy Pang, and this README and files have been uploaded by Kelsea Chang. For any questions please reach out to either party.
