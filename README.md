@@ -15,6 +15,7 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 
 ** Required Files **
 ```
+-smapFile:			Annotated_SV.smap 
 -cnvFile:			CNV.txt 
 -aneuploidyFile:	Aneuploidy.txt 
 -outFile: 			output_file_prefix.txt 
