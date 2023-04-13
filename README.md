@@ -24,7 +24,7 @@ perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneu
 ```
 
 You can find the files for centromere, chromosome length, and cnv mask for hg38 and hg19 in this repo (*hg38_input_files* and *hg19_input_files* folders).
-For the cnv and aneuploidy files, you will want to *SHOW ALL* files in Access before downloading those two files.
+For the cnv and aneuploidy files, you will want to **SHOW ALL** files in Access before downloading those two files.
 
 
 ** Execution Command Example **
