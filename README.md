@@ -1,5 +1,3 @@
-![Bionano logo](images/Bionano-Logo.png?raw=true)
-
 # Homologous Recombination Deficiency Script #
 This script implements an automated algorithm to calculate a homologous recombination deficiency (HRD) score. The HRD score is the summation of the three HRD signatures:
 
