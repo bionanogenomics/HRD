@@ -80,4 +80,4 @@ In Jan. 2023, Bionano published a paper analyzing optical genome mapping (OGM) a
 
 ### Follow Ups & Questions ###
 ---
-The HRD script was written by Andy Pang, and this README and files have been uploaded by Kelsea Chang. For any questions please reach out to either party.
+The HRD script was written by Andy Pang, and this README and files have been uploaded by Kelsea Chang. For any questions, please reach out to either party.
