@@ -36,6 +36,13 @@ aneuploidyFile: output/data/alignmolvref/copynumber/cnv_chrAneuploidy_exp.txt
 If downloading the files from an RVA run on Access, you will want to SHOW ALL variants in Access before downloading the smap, cnv and aneuploidy files, .
 
 
+** Run Log **
+You make sure to have a run log to check for errors in your run.
+```
+&> run_log.txt
+```
+
+
 ** Execution Command Example **
 ```
 perl HRD_project/calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl -smapFile HRD_project/bnx_files/CLL_7_-_Rare_Variant_Analysis_9_23_2022_17_57_16_Annotated_SV.smap -cnvFile HRD_project/bnx_files/CLL_7_-_Rare_Variant_Analysis_9_23_2022_17_57_16_CNV.txt -aneuploidyFile HRD_project/bnx_files/CLL_7_-_Rare_Variant_Analysis_9_23_2022_17_57_16_Aneuploidy.txt -outFile HRD_project/HRD_scores/CLL_7_HRD_scores.txt -centromereFile HRD_project/hg38_centromeres.txt -chromLengthFile HRD_project/chrom_length_only.txt -cnvMaskFile HRD_project/hg38_cnv_masks.bed &> HRD_project/logs/CLL_7_run_log.txt
