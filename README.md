@@ -8,7 +8,7 @@ This script is designed to calculate a homologous recombination deficiency (HRD)
 
 ### Running Perl Script ###
 ---
-Current implementation
+Current execution command
 ```
 perl calculate_HRD_LST_LOH_TAI_score_smap_cnv_3.7.pl --smapFile --cnvFile --aneuploidyFile --outFile --centromereFile --chromLengthFile --cnvMaskFile
 ```
