@@ -82,7 +82,7 @@ chrom	LST	LOH	TAI	numIntrachromFusion_chromothripsis
 
 ### Publication ###
 ---
-In Jan. 2023, Bionano published a paper analyzing optical genome mapping (OGM) as a method to identify homologous recombination deficiency (HRD) in breast cancer samples in-preparation for this script. You can read the publication [here](https://www.biorxiv.org/content/10.1101/2022.12.23.521790v1.full).
+
 The paper that the script was written for is currently being peer-reviewed
 
 ### Follow Ups & Questions ###
